@@ -10,13 +10,13 @@ The initial unique 48 (16x3) avatar characters are designed to work as the sourc
 To get an avatar as SVG code, add the avatar's ID to the URL:
 
 ```
-https://api.multiavatar.com/Binx Bond
+https://policy.playv.co/avatar/Binx Bond
 ```
 JavaScript API call example to get SVG code:
 
 ```
 let avatarId = 'Binx Bond'
-fetch('https://api.multiavatar.com/'
+fetch('https://policy.playv.co/avatar/'
 +JSON.stringify(avatarId))
   .then(res => res.text())
   .then(svg => console.log(svg))
@@ -24,12 +24,12 @@ fetch('https://api.multiavatar.com/'
 To get an avatar as SVG file, add .svg to the end of the URL:
 
 ```
-https://api.multiavatar.com/Binx Bond.svg
+https://policy.playv.co/avatar/Binx Bond.svg
 ```
 To get an avatar as PNG file, add .png to the end of the URL:
 
 ```
-https://api.multiavatar.com/Binx Bond.png
+https://policy.playv.co/avatar/Binx Bond.png
 ```
 
 ### License ###
