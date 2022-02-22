@@ -21,16 +21,7 @@ fetch('https://policy.playv.co/avatar/'
   .then(res => res.text())
   .then(svg => console.log(svg))
 ```
-To get an avatar as SVG file, add .svg to the end of the URL:
 
-```
-https://policy.playv.co/avatar/Binx Bond.svg
-```
-To get an avatar as PNG file, add .png to the end of the URL:
-
-```
-https://policy.playv.co/avatar/Binx Bond.png
-```
 
 ### License ###
 
